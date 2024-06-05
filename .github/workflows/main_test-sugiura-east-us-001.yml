@@ -77,4 +77,4 @@ jobs:
           app-name: 'test-sugiura-East-US-001'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          package: 'https://test-sugiura-east-us-002.openai.azure.com/'
+          package: 'chatbot.py'
